@@ -132,6 +132,8 @@ hr {
 .instructions span {
     display: flex;
     flex-wrap: wrap;
+    color: var(--Stone-600);
+    font-weight: 500;
 }
 
 /* Responsive design for mobile */
