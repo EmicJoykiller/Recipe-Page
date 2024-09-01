@@ -20,22 +20,22 @@ html {
   font-family: "Outfit", sans-serif;
 }
 
-/* Container for desktop size */
+
 .container {
   display: flex;
-  justify-content: center; /* Centers the card horizontally */
-  align-items: center; /* Centers the card vertically if the container has a height */
-  padding: 20px; /* Adds some space around the card */
+  justify-content: center; 
+  align-items: center; 
+  padding: 80px; 
   background-color: var(
     --Stone-100
-  ); /* Optional: Background color for the container */
+  ); 
 }
 
-/* Card styling */
+
 .card {
-  max-width: 700px; /* Limits the width of the card on larger screens */
-  width: 100%; /* Makes the card responsive, adjusting to the container */
-  padding: 20px; /* Adds padding inside the card */
+  max-width: 700px; 
+  width: 100%; 
+  padding: 20px; 
   background-color: var(--White);
   border-radius: 15px;
 }
@@ -135,6 +135,38 @@ hr {
     color: var(--Stone-600);
     font-weight: 500;
 }
+
+.nutrition h2{
+    color: var(--Brown-800);
+}
+
+.nutrition p{
+    color: var(--Stone-600);
+}
+
+table{
+    
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    
+}
+
+td{
+    border-bottom: 1px solid hsla(34, 7%, 79%, 0.685);
+    padding: 10px;
+    color: var(--Brown-800);
+    font-weight: 600;
+}
+
+td span{
+    color: var(--Stone-600);
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
 
 
 @media (max-width: 768px) {
