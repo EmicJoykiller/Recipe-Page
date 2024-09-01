@@ -23,19 +23,16 @@ html {
 
 .container {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  padding: 80px; 
-  background-color: var(
-    --Stone-100
-  ); 
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-color: var(--Stone-100);
 }
 
-
 .card {
-  max-width: 700px; 
-  width: 100%; 
-  padding: 20px; 
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
   background-color: var(--White);
   border-radius: 15px;
 }
@@ -48,7 +45,9 @@ html {
   font-size: 32px;
   margin-bottom: 0px;
   color: var(--Stone-900);
-  font-weight: 700;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  
 }
 
 .img p {
@@ -90,6 +89,8 @@ strong {
 
 .ingredients h2 {
   color: var(--Brown-800);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
 }
 .ingredients ul {
   margin-left: -18px;
@@ -114,6 +115,8 @@ hr {
 
 .instructions h2 {
   color: var(--Brown-800);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
 }
 
 .instructions ol {
@@ -124,58 +127,55 @@ hr {
   padding: 7px;
 }
 
-.instructions li::marker{
-    font-weight: bold;
-    color: var(--Brown-800);
+.instructions li::marker {
+  font-weight: bold;
+  color: var(--Brown-800);
 }
 
 .instructions span {
-    display: flex;
-    flex-wrap: wrap;
-    color: var(--Stone-600);
-    font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--Stone-600);
+  font-weight: 500;
 }
 
-.nutrition h2{
-    color: var(--Brown-800);
+.nutrition h2 {
+  color: var(--Brown-800);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
 }
 
-.nutrition p{
-    color: var(--Stone-600);
+.nutrition p {
+  color: var(--Stone-600);
 }
 
-table{
-    
-    width: 100%;
-    padding: 10px;
-    border-collapse: collapse;
-    
+table {
+  width: 100%;
+  padding: 10px;
+  border-collapse: collapse;
 }
 
-td{
-    border-bottom: 1px solid hsla(34, 7%, 79%, 0.685);
-    padding: 10px;
-    color: var(--Brown-800);
-    font-weight: 600;
+td {
+  border-bottom: 1px solid hsla(34, 7%, 79%, 0.685);
+  padding: 10px;
+  color: var(--Brown-800);
+  font-weight: 600;
 }
 
-td span{
-    color: var(--Stone-600);
+td span {
+  color: var(--Stone-600);
 }
 
 tr:last-child td {
-    border-bottom: none;
+  border-bottom: none;
 }
-
-
 
 @media (max-width: 768px) {
   .container {
-    padding: 0; 
+    padding: 0;
   }
 
   .card {
-    border-radius: 0; 
-    
+    border-radius: 0;
   }
 }
