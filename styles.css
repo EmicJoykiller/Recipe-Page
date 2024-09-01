@@ -124,6 +124,11 @@ hr {
   padding: 7px;
 }
 
+.instructions li::marker{
+    font-weight: bold;
+    color: var(--Brown-800);
+}
+
 .instructions span {
     display: flex;
     flex-wrap: wrap;
