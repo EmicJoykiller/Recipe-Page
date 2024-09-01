@@ -136,14 +136,14 @@ hr {
     font-weight: 500;
 }
 
-/* Responsive design for mobile */
+
 @media (max-width: 768px) {
   .container {
-    padding: 0; /* Removes the padding around the card */
+    padding: 0; 
   }
 
   .card {
-    border-radius: 0; /* Removes rounded corners */
-    box-shadow: none; /* Removes shadow */
+    border-radius: 0; 
+    
   }
 }
